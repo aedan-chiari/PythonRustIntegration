@@ -7,9 +7,8 @@ import numpy as np
 
 
 def generate_numpy_arrays():
-    array1, array2 = (randint(0, 100, size=10, dtype=np.int32),
-                      randint(0, 100, size=10, dtype=np.int32))
-    return array1, array2
+    return (randint(0, 100, size=10, dtype=np.int32),
+            randint(0, 100, size=10, dtype=np.int32))
 
 
 if __name__ == "__main__":
