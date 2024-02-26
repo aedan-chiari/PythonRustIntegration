@@ -19,14 +19,15 @@ Cython, conversely has native support for strings but has the potential for inte
 ## Steps
 1. Install Rust
    
-  i. Visit rustup.rs in your web browser.
- ii. Follow the instructions provided on the website to install Rust and Cargo, Rust's package manager.
+   i. Visit rustup.rs in your web browser.
+   
+   ii. Follow the instructions provided on the website to install Rust and Cargo, Rust's package manager.
 3. Create environment using Mamba <= Python 3.10
 4. `mamba install maturin`
 5. Run `maturin init` from the command line in the ENV you set up using Mamba.
    
    i. Select pyo3 bindings
-6. Paste Rust code from `rustcode_ORIG.rs` into the newly formed Rust project that was created as a result of `maturin init` specifically -> `lib.rs`
-7. Paste Rust toml dependencies from `tomlDeps_ORIG.toml` file into the newly formed Rust project file that was created as a result of `maturin init` specifically -> `Cargo.toml`
-8. Run `maturin develop` from the command line in the ENV you set up using Mamba.
-9. Run the `main.py` file to examine the interaction of Python and Rust!
+7. Paste Rust code from `rustcode_ORIG.rs` into the newly formed Rust project that was created as a result of `maturin init` specifically -> `lib.rs`
+8. Paste Rust toml dependencies from `tomlDeps_ORIG.toml` file into the newly formed Rust project file that was created as a result of `maturin init` specifically -> `Cargo.toml`
+9. Run `maturin develop` from the command line in the ENV you set up using Mamba.
+10. Run the `main.py` file to examine the interaction of Python and Rust!
