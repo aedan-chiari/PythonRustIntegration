@@ -28,14 +28,14 @@ if __name__ == "__main__":
     increment_sum_array = generate_increment_sum(array1, array2)
     print(type(increment_sum_array), "\n")
 
-    array1, array2 = generate_numpy_arrays()
-    print(array1, array2)
+    array1_numpy, array2_numpy = generate_numpy_arrays()
+    print(array1_numpy, array2_numpy)
     print("Array1 Dtype: ", type(array1))
     print("Array2 Dtype: ", type(array2))
 
     # Demonstration of passing numpy generated arrays to a vec defined input/output function
-    increment_sum_array2 = generate_increment_sum(array1, array2)
-    print(type(increment_sum_array2), "\n")
+    increment_sum_array_numpy= generate_increment_sum(array1_numpy, array2_numpy)
+    print(type(increment_sum_array_numpy), "\n")
 
     #Exit World Called from Rust
     exit_string = exit_world()
