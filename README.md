@@ -24,7 +24,8 @@ Cython, conversely has native support for strings but has the potential for inte
    ii. Follow the instructions provided on the website to install Rust and Cargo, Rust's package manager.
 3. Create environment using Mamba <= Python 3.10
 4. `mamba install maturin`
-5. Run `maturin init` from the command line in the ENV you set up using Mamba.
+5. `mamba install numpy`
+6. Run `maturin init` from the command line in the ENV you set up using Mamba.
    
    i. Select pyo3 bindings
 7. Paste Rust code from `rustcode_ORIG.rs` into the newly formed Rust project that was created as a result of `maturin init` specifically -> `lib.rs`
