@@ -6,6 +6,12 @@ from numpy.random import randint
 import numpy as np
 
 
+def generate_numpy_arrays():
+    array1, array2 = (randint(0, 100, size=10, dtype=np.int32),
+                      randint(0, 100, size=10, dtype=np.int32))
+    return array1, array2
+
+
 if __name__ == "__main__":
 
 
@@ -23,8 +29,7 @@ if __name__ == "__main__":
     increment_sum_array = generate_increment_sum(array1, array2)
     print(type(increment_sum_array), "\n")
 
-    array1, array2 = (randint(0, 100, size=10, dtype=np.int32),
-                      randint(0, 100, size=10, dtype=np.int32))
+    array1, array2 = generate_numpy_arrays()
     print(array1, array2)
     print("Array1 Dtype: ", type(array1))
     print("Array2 Dtype: ", type(array2))
