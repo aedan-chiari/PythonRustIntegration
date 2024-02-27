@@ -30,5 +30,5 @@ Cython, conversely has native support for strings but has the potential for inte
    i. Select pyo3 bindings
 7. Paste Rust code from `rustcode_ORIG.rs` into the newly formed Rust project that was created as a result of `maturin init` specifically -> `lib.rs`
 8. Paste Rust toml dependencies from `tomlDeps_ORIG.toml` file into the newly formed Rust project file that was created as a result of `maturin init` specifically -> `Cargo.toml`
-9. Run `maturin develop` from the command line in the ENV you set up using Mamba.
+9. Run `maturin develop --release` from the command line in the ENV you set up using Mamba.
 10. Run the `main.py` file to examine the interaction of Python and Rust!
