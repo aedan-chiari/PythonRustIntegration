@@ -12,6 +12,8 @@ Numba is awesome, HOWEVER, only effective  for numerical operations (not strings
 
 Cython, conversely has native support for strings but has the potential for interaction with the interpreter defeating the purpose of compiled language utilization. Additionally, overall it feels clunky & difficult to use. (I do NOT like the idea of potential interaction with interpreter without your knowledge). 
 
+This brings us to Rust...
+
 **PyPy is not a valid solution as lots of packages are not available on PyPy and therefore useless unless we wanted to convulge PyPy and the CPython (just annoying).**
 
 
