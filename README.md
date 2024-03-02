@@ -3,7 +3,7 @@ The simplest possible example on how to implement Rust code inside of Python 3.1
 
 We use `Mamba` as our package manager however you can also use `Conda` or `pip`.
 
-**Warning -> This is merely a proof of concept for utilizing Rust for small and simple portions of computationally intensive code being run inside of Python scripts.**
+**Warning -> This is merely a proof of concept demonstration for my team on utilizing Rust in small and simple portions of computationally intensive code inside of Python scripts.**
 
 ## Reasons 
 I quite frequently have trouble with the slow nature of Python for computationally intensive tasks that cannot be effectively vectorized such as iterative cash flow calculations. As such I have explored various Packages/Libraries/Languages to support this need which has led to the discovery of Numba, Cython, and most recently Rust. They all come with their own set of drawbacks, however, some more critical than others. 
